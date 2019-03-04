@@ -1,0 +1,34 @@
+{
+  "debug": {
+    "error": {
+      "showStack": false,
+      "showProperties": true
+    }
+  },
+  "paths": {
+    "css": {
+      "watch": "css/**/*.sass",
+      "files": [
+        "css/**/*.sass",
+        "!css/**/_*.sass"
+      ],
+      "dest": "web/src/css"
+    },
+    "html": {
+      "watch": "html/**/*.pug",
+      "files": [
+        "html/**/*.pug",
+        "!html/**/_*.pug"
+      ],
+      "dest": "web"
+    },
+    "js": {
+      "watch": "js/**/*.babel",
+      "files": [
+        "js/**/*.babel",
+        "!js/**/_*.babel"
+      ],
+      "dest": "web/src/js"
+    }
+  }
+}

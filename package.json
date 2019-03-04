@@ -1,0 +1,26 @@
+{
+  "name": "simple-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerraZero/simple-project.git"
+  },
+  "author": "TerraZero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerraZero/simple-project/issues"
+  },
+  "homepage": "https://github.com/TerraZero/simple-project#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "glob": "^7.1.3",
+    "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

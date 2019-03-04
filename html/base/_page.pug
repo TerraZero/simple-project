@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title
+      block title
+        | Page title
+    block css-wrapper
+      block css-lib
+        for file in lib.css
+          link(href='/' + file, rel='stylesheet')
+      block css
+        for file in src.css
+          link(href='/' + file, rel='stylesheet')
+
+
+
+  body
+    block body
+      #screen
+        block screen
+          #page
+            block page
+    block attach
+      block js-wrapper
+        block js-lib
+          for file in lib.js
+            script(src='/' + file)
+        block js
+          for file in src.js
+            script(src='/' + file)
